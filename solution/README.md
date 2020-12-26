@@ -2,7 +2,7 @@
 
 ***
 * Name: Nauruzbayeva Farikha
-* Email: 180107104@sdu.stu.edu.kz
+* Email: 180107104@stu.sdu.edu.kz
 * Variant: [05](../variants/variant05.md)
 * Solution: [./top](./top)
 ***
