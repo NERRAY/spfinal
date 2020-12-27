@@ -8,4 +8,4 @@
 # e.g.
 
 
-awk '{print $4}' log.txt | tr -d [- | cut -c1-11 | sort | uniq -c | sort -nrk4| head -n5 | sed -e 's/,/\n/g' | cat -n | awk '{sum+=$1; string[$4]=$1} END {for (var in string) print var, "-", string[var], "-", string[var]*100/sum "%"}' |  sort -nr
+awk '{print $4}' log.txt | tr -d [- | cut -c1-11 | sort | uniq -c | sort -nrk4| head -n5 | sed -e 's/,/\n/g' | cat -n 
